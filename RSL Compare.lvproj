@@ -11,15 +11,15 @@
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
 		<Item Name="SubVI" Type="Folder">
-			<Item Name="Diff Results.vi" Type="VI" URL="../Diff Results.vi"/>
-			<Item Name="Get All Failed Tests.vi" Type="VI" URL="../Get All Failed Tests.vi"/>
-			<Item Name="Get All Paths.vi" Type="VI" URL="../Get All Paths.vi"/>
-			<Item Name="Get All Tests.vi" Type="VI" URL="../Get All Tests.vi"/>
-			<Item Name="Get Diff Report.vi" Type="VI" URL="../Get Diff Report.vi"/>
-			<Item Name="Get Reference Indexes.vi" Type="VI" URL="../Get Reference Indexes.vi"/>
-			<Item Name="Get VI Index.vi" Type="VI" URL="../Get VI Index.vi"/>
-			<Item Name="Load RSL File.vi" Type="VI" URL="../Load RSL File.vi"/>
-			<Item Name="Save RSL File.vi" Type="VI" URL="../Save RSL File.vi"/>
+			<Item Name="Diff Results.vi" Type="VI" URL="../SubVI/Diff Results.vi"/>
+			<Item Name="Get All Failed Tests.vi" Type="VI" URL="../SubVI/Get All Failed Tests.vi"/>
+			<Item Name="Get All Paths.vi" Type="VI" URL="../SubVI/Get All Paths.vi"/>
+			<Item Name="Get All Tests.vi" Type="VI" URL="../SubVI/Get All Tests.vi"/>
+			<Item Name="Get Diff Report.vi" Type="VI" URL="../SubVI/Get Diff Report.vi"/>
+			<Item Name="Get Reference Indexes.vi" Type="VI" URL="../SubVI/Get Reference Indexes.vi"/>
+			<Item Name="Get VI Index.vi" Type="VI" URL="../SubVI/Get VI Index.vi"/>
+			<Item Name="Load RSL File.vi" Type="VI" URL="../SubVI/Load RSL File.vi"/>
+			<Item Name="Save RSL File.vi" Type="VI" URL="../SubVI/Save RSL File.vi"/>
 		</Item>
 		<Item Name="RSLDiff.vi" Type="VI" URL="../RSLDiff.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">

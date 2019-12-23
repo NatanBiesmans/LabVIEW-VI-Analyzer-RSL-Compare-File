@@ -1,0 +1,1 @@
+"C:\Program Files (x86)\National Instruments\LabVIEW 2019\LabVIEW.exe" RSLDiff.vi -- "C:\Users\Natan\Documents\RSL Compare\Ref RSL.rsl" "C:\Users\Natan\Documents\RSL Compare\RSL Dif Location.rsl" "C:\Users\Natan\Documents\RSL Compare\test.rsl" RSL

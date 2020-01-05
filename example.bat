@@ -7,10 +7,10 @@ set batPath=%~p0
 set LabVIEW="C:\Program Files (x86)\National Instruments\LabVIEW 2019\LabVIEW.exe"
 
 ::Define Reference File
-set RSLRef="%batPath%Ref RSL.rsl"
+set RSLRef="%batPath%Ref Result.rsl"
 
 ::Define new file that we want to compare to the reference file
-set RSLNew="%batPath%New RSL.rsl"
+set RSLNew="%batPath%New Result.rsl"
 
 ::Execute Compare Command
 %LabVIEW% RSLDiff.vi -- %RSLRef% %RSLNew%

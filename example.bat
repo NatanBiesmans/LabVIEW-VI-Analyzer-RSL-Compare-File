@@ -12,5 +12,8 @@ set RSLRef="%batPath%Ref Result.rsl"
 ::Define new file that we want to compare to the reference file
 set RSLNew="%batPath%New Result.rsl"
 
+::Define Output Logging File
+set LogFile="%batPath%LogFile.txt"
+
 ::Execute Compare Command
-%LabVIEW% RSLDiff.vi -- %RSLRef% %RSLNew%
+%LabVIEW% RSLDiff.vi -- %RSLRef% %RSLNew% %LogFile%
